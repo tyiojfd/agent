@@ -1,0 +1,35 @@
+# 敏感信息 - Cookie和密钥
+*.env
+key.env
+
+# 爬取的数据
+xiaohongshu_data/
+xiaohongshu_*.json
+xiaohongshu_*.txt
+
+# 浏览器自动化配置（包含登录状态）
+chrome_automation_profile/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
