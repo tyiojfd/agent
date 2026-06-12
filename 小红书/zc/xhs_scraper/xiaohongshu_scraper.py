@@ -51,7 +51,9 @@ def first_time_login():
     cookie_str = "; ".join([f"{c['name']}={c['value']}" for c in cookies if 'xiaohongshu.com' in c.get('domain', '')])
 
     if cookie_str:
-        with open("key.env", "w", encoding="utf-8") as f:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        key_env_path = os.path.join(script_dir, "key.env")
+        with open(key_env_path, "w", encoding="utf-8") as f:
             f.write(f"xhs_cookie={cookie_str}\n")
         print("\n✅ Cookie已保存")
         page.quit()
@@ -61,15 +63,20 @@ def first_time_login():
         page.quit()
         return False
 
-# ================== 用户配置区 ==================
-SEARCH_KEYWORDS = ["鲁迅故里"]
-SCROLL_TIMES = 3
-MAX_DOWNLOAD = 10  # 最多采集多少个笔记
-MAX_PAGES = 2  # 每个关键词最多翻几页
+# ================== 加载配置 ==================
+script_dir = os.path.dirname(os.path.abspath(__file__))
+config_path = os.path.join(script_dir, "config.json")
+with open(config_path, "r", encoding="utf-8") as f:
+    config = json.load(f)
+
+SEARCH_KEYWORDS = config["search_keywords"]
+SCROLL_TIMES = config["scroll_times"]
+MAX_DOWNLOAD = config["max_download"]
+MAX_PAGES = config["max_pages"]
 # ================================================
 
 # ================== 请求头配置 ==================
-load_dotenv("key.env")
+load_dotenv(os.path.join(script_dir, "key.env"))
 cookie = os.getenv("xhs_cookie", "")
 headers = {
     "cookie": cookie,
@@ -78,10 +85,12 @@ headers = {
 }
 # ================================================
 
-os.makedirs("xiaohongshu_data", exist_ok=True)
-PROCESSED_FILE = "xiaohongshu_processed_ids.txt"
-METADATA_FILE = "xiaohongshu_metadata.json"
-COMMENT_DATA_FILE = "xiaohongshu_comments.json"
+# 数据目录配置（相对于脚本目录）
+OUTPUT_DIR = os.path.join(script_dir, "xiaohongshu")
+DATA_DIR = os.path.join(OUTPUT_DIR, "data")
+os.makedirs(DATA_DIR, exist_ok=True)
+PROCESSED_FILE = os.path.join(OUTPUT_DIR, "processed_ids.txt")
+METADATA_FILE = os.path.join(OUTPUT_DIR, "metadata.json")
 
 
 def load_processed():
@@ -110,20 +119,6 @@ def save_metadata(metadata_list):
     """保存元数据到JSON文件"""
     with open(METADATA_FILE, "w", encoding="utf-8") as f:
         json.dump(metadata_list, f, ensure_ascii=False, indent=2)
-
-
-def load_comment_data():
-    """加载已有的评论数据"""
-    if os.path.exists(COMMENT_DATA_FILE):
-        with open(COMMENT_DATA_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
-
-
-def save_comment_data(comment_list):
-    """保存评论数据到JSON文件"""
-    with open(COMMENT_DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(comment_list, f, ensure_ascii=False, indent=2)
 
 
 def get_note_detail(note_id, browser_page):
@@ -168,7 +163,7 @@ def get_note_detail(note_id, browser_page):
 def download_images(note_id, title, img_urls):
     """下载笔记的所有图片到独立文件夹"""
     clean_title = re.sub(r'[\\/:*?"<>|]', '_', title).strip()[:30]
-    note_folder = os.path.join("xiaohongshu_data", f"{clean_title}_{note_id}")
+    note_folder = os.path.join(DATA_DIR, f"{clean_title}_{note_id}")
     img_folder = os.path.join(note_folder, "images")
     os.makedirs(img_folder, exist_ok=True)
 
@@ -206,75 +201,18 @@ def save_note_metadata(note_folder, metadata):
         json.dump(metadata, f, ensure_ascii=False, indent=2)
 
 
-def save_note_comments(note_folder, comments_data):
-    """保存笔记评论到JSON文件"""
-    comments_file = os.path.join(note_folder, "comments.json")
-    with open(comments_file, "w", encoding="utf-8") as f:
-        json.dump(comments_data, f, ensure_ascii=False, indent=2)
-
-
-def fetch_comments(note_id, browser_page, min_likes=0):
-    """从页面HTML中提取评论"""
-    comments = []
-    comment_stats = {"count": 0, "total_likes": 0}
-
-    try:
-        url = f"https://www.xiaohongshu.com/explore/{note_id}"
-        browser_page.get(url)
-        time.sleep(3)
-
-        html = browser_page.html
-
-        # 检测是否被风控
-        if "请打开小红书App扫码查看" in html or "验证" in browser_page.title:
-            return comments, comment_stats  # 静默跳过，不打印错误
-
-        browser_page.scroll.to_bottom()
-        time.sleep(2)
-
-        # 从HTML提取评论JSON
-        import re
-        comment_pattern = r'"comments":\s*(\[.*?\]).*?"has_more"'
-        matches = re.findall(comment_pattern, html, re.DOTALL)
-
-        if matches:
-            try:
-                comments_data = json.loads(matches[0])
-
-                for comment in comments_data:
-                    likes = comment.get("like_count", 0)
-                    if likes >= min_likes:
-                        comments.append({
-                            "用户": comment.get("user_info", {}).get("nickname", "未知"),
-                            "内容": comment.get("content", ""),
-                            "点赞数": likes,
-                            "时间": comment.get("create_time", "")
-                        })
-
-                comment_stats = {
-                    "count": len(comments),
-                    "total_likes": sum(c["点赞数"] for c in comments)
-                }
-            except:
-                pass
-
-    except:
-        pass
-
-    return comments, comment_stats
-
-
 # ================== 主程序 ==================
 if __name__ == "__main__":
     # 检查是否首次运行
-    if not os.path.exists("key.env"):
+    key_env_path = os.path.join(script_dir, "key.env")
+    if not os.path.exists(key_env_path):
         print("\n检测到首次运行...")
         if not first_time_login():
             print("\n❌ 登录失败，程序退出")
             exit(1)
         print("\n✅ 配置完成，开始爬取...\n")
         # 重新加载环境变量
-        load_dotenv("key.env")
+        load_dotenv(key_env_path)
         cookie = os.getenv("xhs_cookie", "")
         headers["cookie"] = cookie
     elif not os.getenv("xhs_cookie"):
@@ -292,7 +230,7 @@ if __name__ == "__main__":
 
     # 使用独立的自动化配置文件（避免与日常Chrome冲突）
     # 首次运行需要手动登录小红书，之后会保存登录状态
-    automation_profile = os.path.join(os.getcwd(), "chrome_automation_profile")
+    automation_profile = os.path.join(script_dir, "chrome_automation_profile")
     co.set_user_data_path(automation_profile)
     print(f"📁 使用独立配置: {automation_profile}")
 
@@ -306,7 +244,6 @@ if __name__ == "__main__":
     print("✅ 浏览器已启动")
     processed = load_processed()
     metadata_list = load_metadata()
-    comment_data_list = load_comment_data()
     download_count = 0
 
     print(f"已处理 {len(processed)} 个笔记，本次最多采集 {MAX_DOWNLOAD} 个\n")
@@ -397,7 +334,7 @@ if __name__ == "__main__":
                             print(f"  ✅ 下载了 {len(saved_paths)} 张图片")
                         else:
                             clean_title = re.sub(r'[\\/:*?"<>|]', '_', title).strip()[:30]
-                            note_folder = os.path.join("xiaohongshu_data", f"{clean_title}_{note_id}")
+                            note_folder = os.path.join(DATA_DIR, f"{clean_title}_{note_id}")
                             os.makedirs(note_folder, exist_ok=True)
                             saved_paths = []
                             print(f"  ⚠️  无图片可下载")
@@ -427,18 +364,6 @@ if __name__ == "__main__":
                         # 保存笔记独立的metadata.json
                         save_note_metadata(note_folder, note_metadata)
                         print(f"  💾 已保存到文件夹: {note_folder}")
-
-                        # 抓取并保存评论
-                        comments, comment_stats = fetch_comments(note_id, page)
-                        if comments:
-                            save_note_comments(note_folder, {
-                                "note_id": note_id,
-                                "comments": comments,
-                                "stats": comment_stats
-                            })
-                            print(f"  💬 抓取了 {comment_stats['count']} 条评论")
-                        else:
-                            print(f"  💬 暂无评论")
 
                         # 同时添加到总的元数据列表
                         metadata_list.append(note_metadata)
@@ -473,9 +398,8 @@ if __name__ == "__main__":
 
     print(f"\n{'='*50}")
     print(f"✅ 完成！共采集 {download_count} 个笔记")
-    print(f"📁 数据保存在 xiaohongshu_data 文件夹")
+    print(f"📁 数据保存在 {DATA_DIR} 文件夹")
     print(f"📝 元数据: {METADATA_FILE}")
-    print(f"💬 评论数据: {COMMENT_DATA_FILE}")
     print(f"{'='*50}")
 
     page.quit()
