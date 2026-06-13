@@ -1,0 +1,812 @@
+[
+  {
+    "id": "bili_BV1bDR3BJEsv",
+    "type": "video",
+    "title": "《故乡》鲁迅",
+    "source": "B站",
+    "file_path": "bilibili_videos/《故乡》鲁迅_BV1bDR3BJEsv.mp4",
+    "url": "https://www.bilibili.com/video/BV1bDR3BJEsv",
+    "tags": {},
+    "pubdate": "2026-05-01 23:32:38",
+    "video_stats": {
+      "view": 9174,
+      "like": 91,
+      "coin": 16,
+      "favorite": 136,
+      "share": 25
+    },
+    "comment_stats": {
+      "count": 0,
+      "total_likes": 0,
+      "avg_likes": 0
+    },
+    "isSplit": true,
+    "segments": [
+      {
+        "name": "part1_深冬回故乡.mp4",
+        "path": "bilibili_videos/segments/《故乡》鲁迅_BV1bDR3BJEsv/part1_深冬回故乡.mp4",
+        "title": "深冬回故乡",
+        "reason": "视频开始",
+        "content": "这段视频主要讲了讲述我冒严寒回到别了二十余年的故乡，见萧索荒村，悲凉顿生，并交代卖屋搬家之事。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "故乡"
+          ],
+          "季节": [
+            "冬天"
+          ]
+        }
+      },
+      {
+        "name": "part2_老屋话别离.mp4",
+        "path": "bilibili_videos/segments/《故乡》鲁迅_BV1bDR3BJEsv/part2_老屋话别离.mp4",
+        "title": "老屋话别离",
+        "reason": "内容切换到老屋话别离",
+        "content": "这段视频主要讲了回到老屋见母亲与宏儿，谈及变卖木器与搬家事宜，母亲提及闰土将要来访。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "老屋"
+          ],
+          "季节": [
+            "冬天"
+          ]
+        }
+      },
+      {
+        "name": "part3_月下少年闰土.mp4",
+        "path": "bilibili_videos/segments/《故乡》鲁迅_BV1bDR3BJEsv/part3_月下少年闰土.mp4",
+        "title": "月下少年闰土",
+        "reason": "内容切换到月下少年闰土",
+        "content": "这段视频主要讲了脑海中浮现深蓝天空下少年闰土项带银圈刺猹的画面，回忆起闰土名字的由来。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "沙地"
+          ],
+          "季节": [
+            "夏天"
+          ]
+        }
+      },
+      {
+        "name": "part4_闰土的趣事.mp4",
+        "path": "bilibili_videos/segments/《故乡》鲁迅_BV1bDR3BJEsv/part4_闰土的趣事.mp4",
+        "title": "闰土的趣事",
+        "reason": "内容切换到闰土的趣事",
+        "content": "这段视频主要讲了回忆与闰土相识，闰土讲述雪地捕鸟、海边拾贝、看瓜刺猹等新奇趣事，后无奈分别。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "民俗风情"
+          ],
+          "地点": [
+            "海边"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part5_闰土的现状.mp4",
+        "path": "bilibili_videos/segments/《故乡》鲁迅_BV1bDR3BJEsv/part5_闰土的现状.mp4",
+        "title": "闰土的现状",
+        "reason": "内容切换到闰土的现状",
+        "content": "这段视频主要讲了母亲提起闰土，儿时记忆苏醒，得知闰土景况不如意，并穿插宏儿询问坐火车的情景。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "老屋"
+          ],
+          "季节": [
+            "冬天"
+          ]
+        }
+      },
+      {
+        "name": "part6_杨二嫂出场.mp4",
+        "path": "bilibili_videos/segments/《故乡》鲁迅_BV1bDR3BJEsv/part6_杨二嫂出场.mp4",
+        "title": "杨二嫂出场",
+        "reason": "内容切换到杨二嫂出场",
+        "content": "这段视频主要讲了尖锐怪声响起，豆腐西施杨二嫂出场，回忆她昔日擦着白粉坐镇豆腐店的模样。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "豆腐店"
+          ],
+          "季节": [
+            "冬天"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "bili_BV12jRpBGEt4",
+    "type": "video",
+    "title": "《从百草园到三味书屋》鲁迅",
+    "source": "B站",
+    "file_path": "bilibili_videos/《从百草园到三味书屋》鲁迅_BV12jRpBGEt4.mp4",
+    "url": "https://www.bilibili.com/video/BV12jRpBGEt4",
+    "tags": {},
+    "pubdate": "2026-05-06 12:14:35",
+    "video_stats": {
+      "view": 3216,
+      "like": 51,
+      "coin": 4,
+      "favorite": 87,
+      "share": 18
+    },
+    "comment_stats": {
+      "count": 0,
+      "total_likes": 0,
+      "avg_likes": 0
+    },
+    "isSplit": true,
+    "segments": [
+      {
+        "name": "part1_百草园春夏景.mp4",
+        "path": "bilibili_videos/segments/《从百草园到三味书屋》鲁迅_BV12jRpBGEt4/part1_百草园春夏景.mp4",
+        "title": "百草园春夏景",
+        "reason": "视频开始",
+        "content": "这段视频主要讲了介绍百草园的春夏景色与动植物，泥墙根一带的无限趣味。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "景点介绍"
+          ],
+          "地点": [
+            "百草园"
+          ],
+          "季节": [
+            "夏天"
+          ]
+        }
+      },
+      {
+        "name": "part2_美女蛇传说.mp4",
+        "path": "bilibili_videos/segments/《从百草园到三味书屋》鲁迅_BV12jRpBGEt4/part2_美女蛇传说.mp4",
+        "title": "美女蛇传说",
+        "reason": "内容切换到美女蛇传说",
+        "content": "这段视频主要讲了长妈妈讲述美女蛇的传说，让我觉得做人之险，夏夜常担心害怕。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "历史典故"
+          ],
+          "地点": [
+            "百草园"
+          ],
+          "季节": [
+            "夏天"
+          ]
+        }
+      },
+      {
+        "name": "part3_冬日雪地捕鸟.mp4",
+        "path": "bilibili_videos/segments/《从百草园到三味书屋》鲁迅_BV12jRpBGEt4/part3_冬日雪地捕鸟.mp4",
+        "title": "冬日雪地捕鸟",
+        "reason": "内容切换到冬日雪地捕鸟",
+        "content": "这段视频主要讲了冬天下雪后在百草园捕鸟，闰土父亲传授方法，我却因性急捕不到。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "民俗风情"
+          ],
+          "地点": [
+            "百草园"
+          ],
+          "季节": [
+            "冬天"
+          ]
+        }
+      },
+      {
+        "name": "part4_告别百草园.mp4",
+        "path": "bilibili_videos/segments/《从百草园到三味书屋》鲁迅_BV12jRpBGEt4/part4_告别百草园.mp4",
+        "title": "告别百草园",
+        "reason": "内容切换到告别百草园",
+        "content": "这段视频主要讲了猜测被送进书塾的原因，无奈告别百草园的蟋蟀和覆盆子等动植物。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "百草园"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part5_初入三味书屋.mp4",
+        "path": "bilibili_videos/segments/《从百草园到三味书屋》鲁迅_BV12jRpBGEt4/part5_初入三味书屋.mp4",
+        "title": "初入三味书屋",
+        "reason": "内容切换到初入三味书屋",
+        "content": "这段视频主要讲了出门向东进入三味书屋，拜孔子与先生，描写先生外貌及渊博。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "景点介绍"
+          ],
+          "地点": [
+            "三味书屋"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "bili_BV1upWvzZEYU",
+    "type": "video",
+    "title": "绍兴鲁迅故里游玩全攻略",
+    "source": "B站",
+    "file_path": "bilibili_videos/绍兴鲁迅故里游玩全攻略_BV1upWvzZEYU.mp4",
+    "url": "https://www.bilibili.com/video/BV1upWvzZEYU",
+    "tags": {},
+    "pubdate": "2025-10-16 16:00:22",
+    "video_stats": {
+      "view": 831,
+      "like": 8,
+      "coin": 3,
+      "favorite": 8,
+      "share": 1
+    },
+    "comment_stats": {
+      "count": 0,
+      "total_likes": 0,
+      "avg_likes": 0
+    },
+    "isTagged": true,
+    "isSplit": true,
+    "segments": [
+      {
+        "name": "part1_入口攻略与祖居.mp4",
+        "path": "bilibili_videos/segments/绍兴鲁迅故里游玩全攻略_BV1upWvzZEYU/part1_入口攻略与祖居.mp4",
+        "title": "入口攻略与祖居",
+        "reason": "视频开始",
+        "content": "这段视频主要讲了介绍景区东门入口、门票预约方式、周家老台门祖居及邮局寄存等实用攻略。",
+        "tags": {
+          "主题": [
+            "游览攻略",
+            "景点介绍"
+          ],
+          "地点": [
+            "周家老台门"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part2_三味书屋与文学.mp4",
+        "path": "bilibili_videos/segments/绍兴鲁迅故里游玩全攻略_BV1upWvzZEYU/part2_三味书屋与文学.mp4",
+        "title": "三味书屋与文学",
+        "reason": "内容切换到三味书屋与文学",
+        "content": "这段视频主要讲了介绍三味书屋所在地寿家台门，解读《从百草园到三味书屋》中黑油竹门的压抑及告别童年。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "景点介绍"
+          ],
+          "地点": [
+            "三味书屋"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part3_故居与百草园.mp4",
+        "path": "bilibili_videos/segments/绍兴鲁迅故里游玩全攻略_BV1upWvzZEYU/part3_故居与百草园.mp4",
+        "title": "故居与百草园",
+        "reason": "内容切换到故居与百草园",
+        "content": "这段视频主要讲了介绍鲁迅纪念馆、鲁迅故居周家新台门的历史修葺情况，以及百草园的入口位置。",
+        "tags": {
+          "主题": [
+            "景点介绍",
+            "历史典故"
+          ],
+          "地点": [
+            "鲁迅故居",
+            "百草园"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part4_周边文学打卡点.mp4",
+        "path": "bilibili_videos/segments/绍兴鲁迅故里游玩全攻略_BV1upWvzZEYU/part4_周边文学打卡点.mp4",
+        "title": "周边文学打卡点",
+        "reason": "内容切换到周边文学打卡点",
+        "content": "这段视频主要讲了介绍咸亨酒店的历史渊源与小说关联，以及长庆寺、土谷祠等周边隐藏打卡景点。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "景点介绍"
+          ],
+          "地点": [
+            "咸亨酒店"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "bili_BV1MCEg6bEZs",
+    "type": "video",
+    "title": "民国车夫文学，鲁迅、郁达夫、老舍、胡适，他们都在同情谁？",
+    "source": "B站",
+    "file_path": "bilibili_videos/民国车夫文学，鲁迅、郁达夫、老舍、胡适，他们都在同情谁？_BV1MCEg6bEZs.mp4",
+    "url": "https://www.bilibili.com/video/BV1MCEg6bEZs",
+    "tags": {},
+    "pubdate": "2026-06-09 17:30:00",
+    "video_stats": {
+      "view": 1464,
+      "like": 122,
+      "coin": 37,
+      "favorite": 106,
+      "share": 11
+    },
+    "comment_stats": {
+      "count": 6,
+      "total_likes": 53,
+      "avg_likes": 8.83
+    },
+    "isSplit": true,
+    "segments": [
+      {
+        "name": "part1_车夫文学与历史.mp4",
+        "path": "bilibili_videos/segments/民国车夫文学，鲁迅、郁达夫、老舍、胡适，他们都在同情谁？_BV1MCEg6bEZs/part1_车夫文学与历史.mp4",
+        "title": "车夫文学与历史",
+        "reason": "视频开始",
+        "content": "这段视频主要讲了讲述人力车夫在民国文学中的高频出现，及其作为底层镜像反映社会现实的深刻意义。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "历史典故"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part2_人力车与时代悲剧.mp4",
+        "path": "bilibili_videos/segments/民国车夫文学，鲁迅、郁达夫、老舍、胡适，他们都在同情谁？_BV1MCEg6bEZs/part2_人力车与时代悲剧.mp4",
+        "title": "人力车与时代悲剧",
+        "reason": "内容切换到人力车与时代悲剧",
+        "content": "这段视频主要讲了分析人力车传入中国的特殊时机，指出拉车是破产农民的求生手段，车夫悲剧实为时代悲剧。",
+        "tags": {
+          "主题": [
+            "历史典故",
+            "交通路线"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part3_祥子的农民逻辑.mp4",
+        "path": "bilibili_videos/segments/民国车夫文学，鲁迅、郁达夫、老舍、胡适，他们都在同情谁？_BV1MCEg6bEZs/part3_祥子的农民逻辑.mp4",
+        "title": "祥子的农民逻辑",
+        "reason": "内容切换到祥子的农民逻辑",
+        "content": "这段视频主要讲了以《骆驼祥子》为例，分析祥子将土地情感寄托于洋车，试图以小生产者逻辑改变命运。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part4_祥子的堕落悲剧.mp4",
+        "path": "bilibili_videos/segments/民国车夫文学，鲁迅、郁达夫、老舍、胡适，他们都在同情谁？_BV1MCEg6bEZs/part4_祥子的堕落悲剧.mp4",
+        "title": "祥子的堕落悲剧",
+        "reason": "内容切换到祥子的堕落悲剧",
+        "content": "这段视频主要讲了讲述祥子三次买车失败的经历，小福子之死成为压垮他的最后一根稻草，最终彻底堕落。",
+        "tags": {
+          "主题": [
+            "文学作品"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "bili_BV15XVd6HEnF",
+    "type": "video",
+    "title": "未说出口的告别：柔石致鲁迅",
+    "source": "B站",
+    "file_path": "bilibili_videos/未说出口的告别：柔石致鲁迅_BV15XVd6HEnF.mp4",
+    "url": "https://www.bilibili.com/video/BV15XVd6HEnF",
+    "tags": {},
+    "pubdate": "2026-06-03 12:00:00",
+    "video_stats": {
+      "view": 24,
+      "like": 3,
+      "coin": 0,
+      "favorite": 0,
+      "share": 1
+    },
+    "comment_stats": {
+      "count": 0,
+      "total_likes": 0,
+      "avg_likes": 0
+    },
+    "isTagged": true,
+    "isSplit": true,
+    "segments": [
+      {
+        "name": "part1_审讯对白引子.mp4",
+        "path": "bilibili_videos/segments/未说出口的告别：柔石致鲁迅_BV15XVd6HEnF/part1_审讯对白引子.mp4",
+        "title": "审讯对白引子",
+        "reason": "视频开始",
+        "content": "这段视频主要讲了以戏剧对白形式展现审讯场景，引出大先生鲁迅，奠定沉重基调。",
+        "tags": {
+          "主题": [
+            "历史典故"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part2_投身左翼文学.mp4",
+        "path": "bilibili_videos/segments/未说出口的告别：柔石致鲁迅_BV15XVd6HEnF/part2_投身左翼文学.mp4",
+        "title": "投身左翼文学",
+        "reason": "内容切换到投身左翼文学",
+        "content": "这段视频主要讲了讲述鲁迅从教育转向左翼文学，像孺子牛般无私奉献，提携青年作家。",
+        "tags": {
+          "主题": [
+            "历史典故",
+            "文学作品"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part3_柔石追随鲁迅.mp4",
+        "path": "bilibili_videos/segments/未说出口的告别：柔石致鲁迅_BV15XVd6HEnF/part3_柔石追随鲁迅.mp4",
+        "title": "柔石追随鲁迅",
+        "reason": "内容切换到柔石追随鲁迅",
+        "content": "这段视频主要讲了讲述柔石受鲁迅赏识与信任，参加左联并成为其得力助手，合作主编。",
+        "tags": {
+          "主题": [
+            "历史典故"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part4_柔石被捕牺牲.mp4",
+        "path": "bilibili_videos/segments/未说出口的告别：柔石致鲁迅_BV15XVd6HEnF/part4_柔石被捕牺牲.mp4",
+        "title": "柔石被捕牺牲",
+        "reason": "内容切换到柔石被捕牺牲",
+        "content": "这段视频主要讲了讲述1931年柔石等人被捕，在狱中坚贞不屈，最终英勇就义于龙华。",
+        "tags": {
+          "主题": [
+            "历史典故"
+          ],
+          "地点": [
+            "龙华警备司令部"
+          ],
+          "季节": [
+            "冬天"
+          ]
+        }
+      },
+      {
+        "name": "part5_鲁迅悼念烈士.mp4",
+        "path": "bilibili_videos/segments/未说出口的告别：柔石致鲁迅_BV15XVd6HEnF/part5_鲁迅悼念烈士.mp4",
+        "title": "鲁迅悼念烈士",
+        "reason": "内容切换到鲁迅悼念烈士",
+        "content": "这段视频主要讲了引用鲁迅悼念柔石等烈士的诗句，表达对牺牲青年的深切纪念与传承。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "历史典故"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "bili_BV1JPEp6yEkW",
+    "type": "video",
+    "title": "从上海自驾绍兴，她可能是第一个在「鲁迅故居打醉拳」的人",
+    "source": "B站",
+    "file_path": "bilibili_videos/从上海自驾绍兴，她可能是第一个在「鲁迅故居打醉拳」的人_BV1JPEp6yEkW.mp4",
+    "url": "https://www.bilibili.com/video/BV1JPEp6yEkW",
+    "tags": {},
+    "pubdate": "2026-06-07 08:45:00",
+    "video_stats": {
+      "view": 129,
+      "like": 6,
+      "coin": 2,
+      "favorite": 0,
+      "share": 0
+    },
+    "comment_stats": {
+      "count": 0,
+      "total_likes": 0,
+      "avg_likes": 0
+    },
+    "isTagged": true,
+    "isSplit": true,
+    "segments": [
+      {
+        "name": "part1_景区入口闲聊.mp4",
+        "path": "bilibili_videos/segments/从上海自驾绍兴，她可能是第一个在「鲁迅故居打醉拳」的人_BV1JPEp6yEkW/part1_景区入口闲聊.mp4",
+        "title": "景区入口闲聊",
+        "reason": "视频开始",
+        "content": "这段视频主要讲了游客初入景区时的零星对话，包含日常闲聊与简单的互动交流。",
+        "tags": {
+          "主题": [
+            "游览攻略"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part2_游览互动感叹.mp4",
+        "path": "bilibili_videos/segments/从上海自驾绍兴，她可能是第一个在「鲁迅故居打醉拳」的人_BV1JPEp6yEkW/part2_游览互动感叹.mp4",
+        "title": "游览互动感叹",
+        "reason": "内容切换到游览互动感叹",
+        "content": "这段视频主要讲了游客观看景区事物发出感叹，并进行简单的互动与交流。",
+        "tags": {
+          "主题": [
+            "景点介绍"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part3_选购纪念商品.mp4",
+        "path": "bilibili_videos/segments/从上海自驾绍兴，她可能是第一个在「鲁迅故居打醉拳」的人_BV1JPEp6yEkW/part3_选购纪念商品.mp4",
+        "title": "选购纪念商品",
+        "reason": "内容切换到选购纪念商品",
+        "content": "这段视频主要讲了游客在景区商店挑选购买纪念品，讨论商品样式与购买意愿。",
+        "tags": {
+          "主题": [
+            "游览攻略"
+          ],
+          "地点": [
+            "通用"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "bili_BV1oQGHzgEzj",
+    "type": "video",
+    "title": "这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅故居 #绍兴旅游攻略 #浙江文旅宣推官 #薛大胖说事",
+    "source": "B站",
+    "file_path": "bilibili_videos/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj.mp4",
+    "url": "https://www.bilibili.com/video/BV1oQGHzgEzj",
+    "tags": {},
+    "pubdate": "2025-07-08 21:30:08",
+    "video_stats": {
+      "view": 17292,
+      "like": 564,
+      "coin": 140,
+      "favorite": 545,
+      "share": 282
+    },
+    "comment_stats": {
+      "count": 2,
+      "total_likes": 23,
+      "avg_likes": 11.5
+    },
+    "isSplit": true,
+    "segments": [
+      {
+        "name": "part1_鲁迅故里导览.mp4",
+        "path": "bilibili_videos/segments/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj/part1_鲁迅故里导览.mp4",
+        "title": "鲁迅故里导览",
+        "reason": "视频开始",
+        "content": "这段视频主要讲了介绍鲁迅故里景区，提供保姆级游览攻略，邀请观众随镜头聆听鲁迅故事。",
+        "tags": {
+          "主题": [
+            "游览攻略",
+            "景点介绍"
+          ],
+          "地点": [
+            "鲁迅故里"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part2_交通与游览须知.mp4",
+        "path": "bilibili_videos/segments/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj/part2_交通与游览须知.mp4",
+        "title": "交通与游览须知",
+        "reason": "内容切换到交通与游览须知",
+        "content": "这段视频主要讲了介绍前往景区的交通路线、门票预约方式、开放时间及四大游览板块。",
+        "tags": {
+          "主题": [
+            "游览攻略",
+            "交通路线"
+          ],
+          "地点": [
+            "鲁迅故里"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part3_老台门与周家渊源.mp4",
+        "path": "bilibili_videos/segments/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj/part3_老台门与周家渊源.mp4",
+        "title": "老台门与周家渊源",
+        "reason": "内容切换到老台门与周家渊源",
+        "content": "这段视频主要讲了介绍鲁迅祖父周福清的老台门，讲述其科举高中及周氏家族的显赫历史。",
+        "tags": {
+          "主题": [
+            "历史典故",
+            "景点介绍"
+          ],
+          "地点": [
+            "老台门"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part4_德寿堂建筑格局.mp4",
+        "path": "bilibili_videos/segments/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj/part4_德寿堂建筑格局.mp4",
+        "title": "德寿堂建筑格局",
+        "reason": "内容切换到德寿堂建筑格局",
+        "content": "这段视频主要讲了讲解周家营客厅德寿堂的命名由来、建筑形制及家族议事功能，彰显周家地位。",
+        "tags": {
+          "主题": [
+            "景点介绍",
+            "历史典故"
+          ],
+          "地点": [
+            "德寿堂"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part5_科场舞弊与家道中落.mp4",
+        "path": "bilibili_videos/segments/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj/part5_科场舞弊与家道中落.mp4",
+        "title": "科场舞弊与家道中落",
+        "reason": "内容切换到科场舞弊与家道中落",
+        "content": "这段视频主要讲了讲述周福清科场舞弊案始末，此案导致周家迅速败落，鲁迅深刻体会世态炎凉。",
+        "tags": {
+          "主题": [
+            "历史典故"
+          ],
+          "地点": [
+            "老台门"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part6_坐楼生活与七星灶.mp4",
+        "path": "bilibili_videos/segments/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj/part6_坐楼生活与七星灶.mp4",
+        "title": "坐楼生活与七星灶",
+        "reason": "内容切换到坐楼生活与七星灶",
+        "content": "这段视频主要讲了介绍周家生活区坐楼及七星灶，通过田产和排场展现周家昔日的富裕与权势。",
+        "tags": {
+          "主题": [
+            "景点介绍",
+            "民俗风情"
+          ],
+          "地点": [
+            "坐楼"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      },
+      {
+        "name": "part7_新台门与鲁迅童年.mp4",
+        "path": "bilibili_videos/segments/这是一条16分钟鲁迅故居详细讲解攻略，跟着课本游绍兴，深度体验文化之旅！#青年创作者扶持计划 #鲁迅_BV1oQGHzgEzj/part7_新台门与鲁迅童年.mp4",
+        "title": "新台门与鲁迅童年",
+        "reason": "内容切换到新台门与鲁迅童年",
+        "content": "这段视频主要讲了介绍鲁迅家新台门，讲述鲁迅童年优渥生活、专职保姆及启蒙教育等经历。",
+        "tags": {
+          "主题": [
+            "文学作品",
+            "景点介绍"
+          ],
+          "地点": [
+            "新台门"
+          ],
+          "季节": [
+            "不确定"
+          ]
+        }
+      }
+    ]
+  }
+]
