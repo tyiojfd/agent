@@ -17,6 +17,7 @@ MAX_PAGES = 3  # 每个关键词最多翻几页
 # ================== 请求头 ==================
 load_dotenv("key.env")
 co=os.getenv("cookie")
+FFMPEG_PATH = os.getenv("FFMPEG_PATH") or None
 headers = {
     "cookie":co,
     "referer": "https://www.bilibili.com/",
@@ -142,12 +143,13 @@ def download_video(bvid, clean_title, cookie_file):
     """尝试下载视频，成功返回 True，失败返回 False（不输出任何信息）"""
     base_cmd = [
         "yt-dlp",
-        "--ffmpeg-location", r"D:\ffmeg\ffmpeg-6.1.1-essentials_build\bin",
-        "-f", "bestvideo+bestaudio/best",   # 直接使用分离格式 + FFmpeg
+        "-f", "bestvideo+bestaudio/best",
         "--merge-output-format", "mp4",
         "-o", f"bilibili_videos/{clean_title}_{bvid}.%(ext)s",
         f"https://www.bilibili.com/video/{bvid}"
     ]
+    if FFMPEG_PATH:
+        base_cmd.insert(1, f"--ffmpeg-location={FFMPEG_PATH}")
     if cookie_file:
         base_cmd.insert(1, f"--cookies={cookie_file}")
     base_cmd.insert(1, f"--referer={headers.get('referer', 'https://www.bilibili.com/')}")
